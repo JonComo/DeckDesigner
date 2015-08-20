@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8696375F1B8005720058846F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8696375E1B8005720058846F /* art.scnassets */; };
+		869638311B800A340058846F /* CellGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 869638301B800A340058846F /* CellGraphic.m */; };
+		869639021B800CA10058846F /* Decks in Resources */ = {isa = PBXBuildFile; fileRef = 869639011B800CA10058846F /* Decks */; };
 		86CC136F1B80032900D21C8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC136E1B80032900D21C8E /* main.m */; };
 		86CC13721B80032900D21C8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC13711B80032900D21C8E /* AppDelegate.m */; };
 		86CC13751B80032900D21C8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC13741B80032900D21C8E /* ViewController.m */; };
@@ -14,6 +17,16 @@
 		86CC137A1B80032900D21C8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CC13791B80032900D21C8E /* Images.xcassets */; };
 		86CC137D1B80032900D21C8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86CC137B1B80032900D21C8E /* LaunchScreen.xib */; };
 		86CC13891B80032900D21C8E /* DeckDesignerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC13881B80032900D21C8E /* DeckDesignerTests.m */; };
+		86CC14071B8004B000D21C8E /* board_d.tga in Resources */ = {isa = PBXBuildFile; fileRef = 86CC13951B8004B000D21C8E /* board_d.tga */; };
+		86CC14081B8004B000D21C8E /* board_n.tga in Resources */ = {isa = PBXBuildFile; fileRef = 86CC13961B8004B000D21C8E /* board_n.tga */; };
+		86CC14091B8004B000D21C8E /* board_s.tga in Resources */ = {isa = PBXBuildFile; fileRef = 86CC13971B8004B000D21C8E /* board_s.tga */; };
+		86CC14711B8004B000D21C8E /* Skateboard.3DS in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14001B8004B000D21C8E /* Skateboard.3DS */; };
+		86CC14721B8004B000D21C8E /* Skateboard.FBX in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14011B8004B000D21C8E /* Skateboard.FBX */; };
+		86CC14731B8004B000D21C8E /* Skateboard.max in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14021B8004B000D21C8E /* Skateboard.max */; };
+		86CC14741B8004B000D21C8E /* Skateboard.smd in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14031B8004B000D21C8E /* Skateboard.smd */; };
+		86CC14751B8004B000D21C8E /* trucks_d.tga in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14041B8004B000D21C8E /* trucks_d.tga */; };
+		86CC14761B8004B000D21C8E /* trucks_n.tga in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14051B8004B000D21C8E /* trucks_n.tga */; };
+		86CC14771B8004B000D21C8E /* trucks_s.tga in Resources */ = {isa = PBXBuildFile; fileRef = 86CC14061B8004B000D21C8E /* trucks_s.tga */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8696375E1B8005720058846F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		8696382F1B800A340058846F /* CellGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellGraphic.h; sourceTree = "<group>"; };
+		869638301B800A340058846F /* CellGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellGraphic.m; sourceTree = "<group>"; };
+		869639011B800CA10058846F /* Decks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Decks; sourceTree = "<group>"; };
 		86CC13691B80032900D21C8E /* DeckDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CC136D1B80032900D21C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86CC136E1B80032900D21C8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,16 @@
 		86CC13821B80032900D21C8E /* DeckDesignerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckDesignerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CC13871B80032900D21C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86CC13881B80032900D21C8E /* DeckDesignerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeckDesignerTests.m; sourceTree = "<group>"; };
+		86CC13951B8004B000D21C8E /* board_d.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = board_d.tga; sourceTree = "<group>"; };
+		86CC13961B8004B000D21C8E /* board_n.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = board_n.tga; sourceTree = "<group>"; };
+		86CC13971B8004B000D21C8E /* board_s.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = board_s.tga; sourceTree = "<group>"; };
+		86CC14001B8004B000D21C8E /* Skateboard.3DS */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skateboard.3DS; sourceTree = "<group>"; };
+		86CC14011B8004B000D21C8E /* Skateboard.FBX */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skateboard.FBX; sourceTree = "<group>"; };
+		86CC14021B8004B000D21C8E /* Skateboard.max */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skateboard.max; sourceTree = "<group>"; };
+		86CC14031B8004B000D21C8E /* Skateboard.smd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skateboard.smd; sourceTree = "<group>"; };
+		86CC14041B8004B000D21C8E /* trucks_d.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = trucks_d.tga; sourceTree = "<group>"; };
+		86CC14051B8004B000D21C8E /* trucks_n.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = trucks_n.tga; sourceTree = "<group>"; };
+		86CC14061B8004B000D21C8E /* trucks_s.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = trucks_s.tga; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +108,15 @@
 		86CC136B1B80032900D21C8E /* DeckDesigner */ = {
 			isa = PBXGroup;
 			children = (
+				869639011B800CA10058846F /* Decks */,
+				8696375E1B8005720058846F /* art.scnassets */,
+				86CC13941B8004B000D21C8E /* Skateboard */,
 				86CC13701B80032900D21C8E /* AppDelegate.h */,
 				86CC13711B80032900D21C8E /* AppDelegate.m */,
 				86CC13731B80032900D21C8E /* ViewController.h */,
 				86CC13741B80032900D21C8E /* ViewController.m */,
+				8696382F1B800A340058846F /* CellGraphic.h */,
+				869638301B800A340058846F /* CellGraphic.m */,
 				86CC13761B80032900D21C8E /* Main.storyboard */,
 				86CC13791B80032900D21C8E /* Images.xcassets */,
 				86CC137B1B80032900D21C8E /* LaunchScreen.xib */,
@@ -117,6 +149,23 @@
 				86CC13871B80032900D21C8E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86CC13941B8004B000D21C8E /* Skateboard */ = {
+			isa = PBXGroup;
+			children = (
+				86CC13951B8004B000D21C8E /* board_d.tga */,
+				86CC13961B8004B000D21C8E /* board_n.tga */,
+				86CC13971B8004B000D21C8E /* board_s.tga */,
+				86CC14001B8004B000D21C8E /* Skateboard.3DS */,
+				86CC14011B8004B000D21C8E /* Skateboard.FBX */,
+				86CC14021B8004B000D21C8E /* Skateboard.max */,
+				86CC14031B8004B000D21C8E /* Skateboard.smd */,
+				86CC14041B8004B000D21C8E /* trucks_d.tga */,
+				86CC14051B8004B000D21C8E /* trucks_n.tga */,
+				86CC14061B8004B000D21C8E /* trucks_s.tga */,
+			);
+			path = Skateboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +248,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CC14071B8004B000D21C8E /* board_d.tga in Resources */,
+				8696375F1B8005720058846F /* art.scnassets in Resources */,
+				86CC14771B8004B000D21C8E /* trucks_s.tga in Resources */,
+				869639021B800CA10058846F /* Decks in Resources */,
 				86CC13781B80032900D21C8E /* Main.storyboard in Resources */,
+				86CC14081B8004B000D21C8E /* board_n.tga in Resources */,
+				86CC14711B8004B000D21C8E /* Skateboard.3DS in Resources */,
+				86CC14761B8004B000D21C8E /* trucks_n.tga in Resources */,
+				86CC14721B8004B000D21C8E /* Skateboard.FBX in Resources */,
+				86CC14751B8004B000D21C8E /* trucks_d.tga in Resources */,
+				86CC14091B8004B000D21C8E /* board_s.tga in Resources */,
 				86CC137D1B80032900D21C8E /* LaunchScreen.xib in Resources */,
+				86CC14731B8004B000D21C8E /* Skateboard.max in Resources */,
+				86CC14741B8004B000D21C8E /* Skateboard.smd in Resources */,
 				86CC137A1B80032900D21C8E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +282,7 @@
 			files = (
 				86CC13751B80032900D21C8E /* ViewController.m in Sources */,
 				86CC13721B80032900D21C8E /* AppDelegate.m in Sources */,
+				869638311B800A340058846F /* CellGraphic.m in Sources */,
 				86CC136F1B80032900D21C8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +478,7 @@
 				86CC138E1B80032900D21C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86CC138F1B80032900D21C8E /* Build configuration list for PBXNativeTarget "DeckDesignerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +487,7 @@
 				86CC13911B80032900D21C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
